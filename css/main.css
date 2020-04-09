@@ -1,0 +1,155 @@
+
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    
+}
+h3 {
+    font-size: 25px;
+    
+}
+p{
+    font-size: 18px;
+}
+
+ul.menu {
+    display:table;
+    table-layout:fixed;
+    width:700px;
+    margin-left: auto;
+    font-size: 25px;
+}
+ul.menu li {
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    border-left:1px solid white;
+}
+ul.menu li:first-child {
+    border:none;    
+}
+ul.menu li a {
+    display:block;
+    text-decoration:none;
+    color:black;
+}
+
+#canvas { 
+position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+#top{
+    position: relative;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    font-size: 35px;
+}
+
+#top h1{
+    position: absolute;
+    top: 30%;
+    margin: 0;
+    width: 100%;
+}
+
+#about {
+    margin: -150px 0 0 0;
+}
+
+
+#skill {
+    margin: 150px 0 0 0;
+}
+
+#product {
+    margin: 150px 0 0 0;
+    display: inline-block;
+}
+
+
+
+#hoshiatsume img{
+    width:70%;
+}
+
+
+#sandy img{
+    width:70%;
+}
+
+
+
+#mojimoji img{
+    width:70%;
+}
+
+#gravity img{
+    width:70%;
+}
+
+
+#osumaru img{
+    width:70%;
+}
+#menubar img{
+    width:70%;
+}
+#LT iframe{
+    width:400px;
+    height:280px;
+ }
+ #RoR iframe{
+    width:400px;
+    height:280px;
+ }
+#hoshiatsume,#sandy,#mojimoji,#gravity,#osumaru,#menubar,#LT,#RoR{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    margin: 20px;
+    text-align: center;
+}
+ 
+footer{
+    width: 100%;
+    height: 100px;
+    margin: 100px 0 0 0;
+    color: white;
+    background-color: black; 
+    text-align:center;
+    position: relative;
+}
+
+
+  @media screen and (max-width:480px){
+
+    ul.menu {
+     display:none;
+     table-layout:fixed;
+     width:100%;
+     margin: 0;
+     padding: 0;
+     font-size: 25px;
+     } 
+ }
+
+ @media screen and (max-width:845px){
+    #hoshiatsume,#sandy,#mojimoji,#gravity,#osumaru,#menubar,#LT,#RoR{
+
+        width: 80%;
+
+    }
+ 
+ }
